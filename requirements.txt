@@ -1,6 +1,40 @@
+# API Backend
 fastapi
-uvicorn
+uvicorn[standard]
+
+# Configuration
 python-dotenv
+pydantic
+pydantic-settings
+
+# Base de données
 sqlalchemy
 psycopg2-binary
-pydantic
+alembic
+
+# IA OpenAI
+openai
+
+# Données crypto
+requests
+ccxt
+pandas
+numpy
+
+# Analyse technique
+ta
+
+# Tâches programmées
+apscheduler
+
+# Notifications
+python-telegram-bot
+discord-webhook
+
+# Sécurité
+python-jose[cryptography]
+passlib[bcrypt]
+
+# Tests
+pytest
+httpx
